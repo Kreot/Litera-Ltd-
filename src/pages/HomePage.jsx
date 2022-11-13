@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../styles/homePage.css";
+import "../styles/adaptation/homePageAdaption.css";
 const HomePage = () => {
   return (
     <div className="container">

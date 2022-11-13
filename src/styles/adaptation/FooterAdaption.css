@@ -1,0 +1,11 @@
+@media all and (max-width: 480px) {
+  .footer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .hr {
+    display: block;
+  }
+}

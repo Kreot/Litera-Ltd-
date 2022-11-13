@@ -1,0 +1,15 @@
+.burger_menu_triger {
+  display: none;
+}
+@media all and (max-width: 785px) {
+  .navbar__navigation {
+    display: none;
+  }
+  .burger_menu_triger {
+    display: block;
+  }
+  .navbar {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+}

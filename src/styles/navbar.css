@@ -26,3 +26,31 @@ a:hover {
   color: #59512f;
   cursor: pointer;
 }
+.burger_menu {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  background-color: #dbd0b3;
+  padding: 20px;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+}
+.sidebar__links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 20px;
+}
+.burger_menu_logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.burger_menu_triger {
+  transition: 1000ms;
+  cursor: pointer;
+}
+.burger_menu_triger:hover {
+  transform: scale(1.3);
+}

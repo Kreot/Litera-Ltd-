@@ -1,0 +1,13 @@
+@media all and (max-width: 785px) {
+  .container_adsress {
+    flex-direction: column;
+    gap: 20px;
+    padding: 5%;
+  }
+  .map {
+    width: 100%;
+  }
+  .address_map {
+    width: 100%;
+  }
+}

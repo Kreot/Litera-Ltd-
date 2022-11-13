@@ -3,11 +3,12 @@ import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import EmailIcon from "@mui/icons-material/Email";
 import "../styles/footer.css";
-
+import "../styles/adaptation/FooterAdaption.css";
 const Footer = () => {
   return (
     <div className="footer">
       <div>
+        <div>KZ</div>
         <div>
           <LocalPhoneIcon />
           +7 (727) 339-89-88
@@ -30,7 +31,14 @@ const Footer = () => {
           literaltd.kz
         </div>
       </div>
+      <hr
+        className="hr"
+        style={{
+          width: "100%",
+        }}
+      />
       <div>
+        <div>KG</div>
         <div>
           <LocalPhoneIcon />
           +996 (312) 98-68-97
